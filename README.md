@@ -38,8 +38,9 @@ This project was developped using the following technologies:
 - [Google Fonts](https://fonts.google.com/)
 
 🛠 Utilities
--
-[]()
+- Images
+[Ramdom Photos](http://lorempixel.com/150/150/people/)
+[Clippy CSS](https://bennettfeely.com/clippy/)
 
 ## 📐 Project
 
@@ -49,7 +50,7 @@ NLW Heat is a digital nameplate created as a warming up and to be used at the Do
 
 ## 🔖 Layout
 
-The basic layout project can be accessed in [this link]() in your [Figma](https://figma.com) account.
+The basic layout project can be accessed in [this link](https://www.figma.com/file/9FDkMxt3LrtPWtdx7kQzSh/%5BNLW-Heat---Mission%3A-Origin%5D-DoWhile2021-(Community)?node-id=0%3A1) in your [Figma](https://figma.com) account.
 
 ## 💻 IDE
 This project was done using [Visual Studio Code](https://code.visualstudio.com/) IDE.
