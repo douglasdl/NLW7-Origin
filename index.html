@@ -25,7 +25,7 @@
                 </div>
                 
                 <h1>Douglas Dias Leal</h1>
-                <a href="https://github.com/douglasdl/">
+                <a href="https://github.com/douglasdl/" target="_blank">
                     <img src="images/github.svg" alt="Ícone do Github">
                     @douglasdl87    
                 </a>
@@ -34,29 +34,51 @@
                     start programming for web
                 </p>
 
-                <ul>
-                    <li>
-                        <a href="https://www.youtube.com/channel/UCTk77LQyQ2HT-WzXKK8aPBw/featured" target="_blank">
+                <ul id="socialLinks">
+                    <li class="youtube">
+                        <a href="" target="_blank">
                             <img src="images/youtube.svg" alt="Ícone do YouTube">
                         </a>
                     </li>
-                    <li>
-                        <a href="https://www.facebook.com/LojaoShop/" target="_blank">
+                    <li class="facebook">
+                        <a href="" target="_blank">
                             <img src="images/facebook.svg" alt="Ícone do Facebook">
                         </a>
                     </li>
-                    <li>
-                        <a href="https://www.instagram.com/douglasdl87/" target="_blank">
+                    <li class="instagram">
+                        <a href="" target="_blank">
                             <img src="images/instagram.svg" alt="Ícone do Instagram">
                         </a>
                     </li>
-                    <li>
-                        <a href="https://twitter.com/douglasdiasleal/" target="_blank">
+                    <li class="twitter">
+                        <a href="" target="_blank">
                             <img src="images/twitter.svg" alt="Ícone do Twitter">
                         </a>
                     </li>
                 </ul>
             </div>
         </main>
+
+        <script>
+            const socialMediaLinks = {
+                github: 'douglasdl',
+                youtube: 'channel/UCTk77LQyQ2HT-WzXKK8aPBw',
+                facebook: 'LojaoShop',
+                instagram: 'douglasdl87',
+                twitter: 'douglasdiasleal'
+            }
+
+            function changeSocialMediaLinks() {
+                for(let li of socialLinks.children) {
+                    const social = li.getAttribute('class')
+
+                    // Change a href link address
+                    li.children[0].href = `https://${social}.com/${socialMediaLinks[social]}`;
+
+                    //alert(li.children[0].href)
+                }
+            }
+            changeSocialMediaLinks()
+        </script>
     </body>
 </html>
