@@ -21,15 +21,15 @@
                     <span>
                         <img src="images/build.svg" alt="Selo">
                     </span>
-                    <img src="https://media-exp1.licdn.com/dms/image/C4D03AQG3ehztB6g2uA/profile-displayphoto-shrink_400_400/0/1532380492566?e=1640217600&v=beta&t=hZljr4zOE09mpD2yTGzT8uLUVvLMDVeaACZH5SMCfpE" alt="Foto pessoal">
+                    <img id="userImage" src="https://media-exp1.licdn.com/dms/image/C4D03AQG3ehztB6g2uA/profile-displayphoto-shrink_400_400/0/1532380492566?e=1640217600&v=beta&t=hZljr4zOE09mpD2yTGzT8uLUVvLMDVeaACZH5SMCfpE" alt="Foto pessoal">
                 </div>
                 
-                <h1>Douglas Dias Leal</h1>
-                <a href="https://github.com/douglasdl/" target="_blank">
+                <h1 id="username">Douglas Dias Leal</h1>
+                <a id="userLink" href="https://github.com/douglasdl/" target="_blank">
                     <img src="images/github.svg" alt="Ícone do Github">
-                    @douglasdl87    
+                    <span id="userLogin">douglasdl87</span>    
                 </a>
-                <p>
+                <p id="userBio">
                     An instructor focused on help people
                     start programming for web
                 </p>
@@ -59,26 +59,6 @@
             </div>
         </main>
 
-        <script>
-            const socialMediaLinks = {
-                github: 'douglasdl',
-                youtube: 'channel/UCTk77LQyQ2HT-WzXKK8aPBw',
-                facebook: 'LojaoShop',
-                instagram: 'douglasdl87',
-                twitter: 'douglasdiasleal'
-            }
-
-            function changeSocialMediaLinks() {
-                for(let li of socialLinks.children) {
-                    const social = li.getAttribute('class')
-
-                    // Change a href link address
-                    li.children[0].href = `https://${social}.com/${socialMediaLinks[social]}`;
-
-                    //alert(li.children[0].href)
-                }
-            }
-            changeSocialMediaLinks()
-        </script>
+        <script src="main.js"></script>
     </body>
 </html>
