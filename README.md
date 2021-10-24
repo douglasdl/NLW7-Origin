@@ -6,7 +6,7 @@ NLW Heat
     <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-ide">IDE</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-licence">Licence</a>
+  <a href="#-licence">License</a>
 </p>
 
 <p align="center">
@@ -99,7 +99,7 @@ This project was done using [Visual Studio Code](https://code.visualstudio.com/)
 }
 ```
 
-## 📝 Licence
+## 📝 License
 
 This project is under the MIT license. See the file [LICENSE](https://github.com/douglasdl/NLW7-Origin/blob/main/LICENSE) for more details.
 
