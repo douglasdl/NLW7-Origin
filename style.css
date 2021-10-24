@@ -85,7 +85,7 @@ ul {
 @media (min-width: 720px) {
     /* Tablet styles */
     main {
-        background: url(images/Desktop.svg) no-repeat center/cover;
+        background: url(images/desktop.svg) no-repeat center/cover;
         width: 100vw;
         min-height: 812px;
         height: 100vh;
@@ -95,7 +95,7 @@ ul {
 @media (min-width: 960px) {
     /* Desktop styles */
     main {
-        background: url(images/Desktop.svg) no-repeat center/cover;
+        background: url(images/desktop.svg) no-repeat center/cover;
         width: 100vw;
         min-height: 812px;
         height: 100vh;
